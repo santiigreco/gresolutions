@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="es" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -19,11 +19,21 @@
               'brand-navy': '#000080',
               'brand-dark': '#111827',
               'brand-light': '#FFFFFF',
+              'brand-deep-dark': '#0a0f1f',
             },
             fontFamily: {
               sans: ['Montserrat', 'sans-serif'],
               serif: ['Lora', 'serif'],
               script: ['Caveat', 'cursive'],
+            },
+            animation: {
+              'subtle-bob': 'subtle-bob 4s ease-in-out infinite',
+            },
+            keyframes: {
+              'subtle-bob': {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' }
+              }
             }
           }
         }

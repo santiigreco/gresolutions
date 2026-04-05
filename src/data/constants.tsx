@@ -16,6 +16,18 @@ export const PROJECTS: Project[] = [
     link: "https://cestotracker.com",
     tags: ["Web App", "Sports Tech"],
   },
+  {
+    title: "Rota Pádel",
+    description: "Aplicación dinámica para gestionar y rotar jugadores en partidos de pádel, decidiendo equitativamente quién juega contra quién.",
+    link: "https://rota-padel.netlify.app",
+    tags: ["Web App", "Sports Tech"],
+  },
+  {
+    title: "Calculadora de Asado",
+    description: "Herramienta inteligente y rápida para calcular con precisión la cantidad de comida, bebida y carbón necesarios según tus invitados.",
+    link: "https://asadito-site.netlify.app",
+    tags: ["Web App", "Utilidad"],
+  },
 ];
 
 export const SERVICES: Service[] = [

@@ -75,7 +75,6 @@ export const Contact: FC = () => {
                     </div>
                 </form>
                 <div className="flex justify-center space-x-6 mt-12">
-                    <a href={`mailto:${SOCIALS.email}`} aria-label="Email" className="text-gray-400 hover:text-brand-teal transition-colors transform hover:scale-110"><EmailIcon className="h-8 w-8" /></a>
                     <a href={SOCIALS.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-brand-teal transition-colors transform hover:scale-110"><LinkedInIcon className="h-8 w-8" /></a>
                     <a href={SOCIALS.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-400 hover:text-brand-teal transition-colors transform hover:scale-110"><InstagramIcon className="h-8 w-8" /></a>
                 </div>

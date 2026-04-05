@@ -1,10 +1,13 @@
 import React, { FC } from 'react';
+import { FadeIn } from './FadeIn';
 
 export const Section: FC<{ id: string; className?: string; children: React.ReactNode }> = ({ id, className, children }) => {
     return (
         <section id={id} className={`py-20 md:py-28 ${className || ''}`}>
             <div className="container mx-auto px-6">
-                {children}
+                <FadeIn>
+                    {children}
+                </FadeIn>
             </div>
         </section>
     );

@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Section, SectionTitle } from './Section';
-import { SERVICES } from '../data/constants';
 import { Service } from '../types';
+import { useLanguage } from '../context/LanguageContext';
 
 const ServiceCard: FC<{ service: Service }> = ({ service }) => (
     <div className="text-center p-6 bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-800 hover:border-brand-teal transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-brand-teal/20">
@@ -13,13 +13,15 @@ const ServiceCard: FC<{ service: Service }> = ({ service }) => (
     </div>
 );
 
-export const Services: FC = () => (
+export const Services: FC = () => {
+    const { t } = useLanguage();
+    return (
     <Section id="servicios" className="">
-        <SectionTitle emoji="🛠️">Servicios</SectionTitle>
+        <SectionTitle emoji="🛠️">{t.services.title}</SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-            {SERVICES.map(service => (
+            {t.services.list.map((service: Service) => (
                 <ServiceCard key={service.title} service={service} />
             ))}
         </div>
     </Section>
-);
+)};

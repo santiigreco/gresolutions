@@ -42,10 +42,10 @@ export const translations = {
                     tags: ["Web App", "Utilidad"],
                 },
                 {
-                    title: "Reno Arg",
-                    description: "Aplicación fullstack de autenticación con React, TypeScript y Node.js. Incluye registro de usuarios, login con token y un dashboard protegido, desarrollada en el programa de formación de Igrowker.",
+                    title: "RENO",
+                    description: "Plataforma inteligente para la digitalización de procesos industriales, eliminando el uso de papel y centralizando datos técnicos en tiempo real para una gestión operativa eficiente.",
                     link: "https://i006-reno-arg-fullstack-1.onrender.com/login",
-                    tags: ["Fullstack", "React", "Node.js"],
+                    tags: ["Web App", "Utilidad"],
                 }
             ]
         },
@@ -128,10 +128,10 @@ export const translations = {
                     tags: ["Web App", "Utility"],
                 },
                 {
-                    title: "Reno Arg",
-                    description: "Full-stack authentication app built with React, TypeScript and Node.js. Features user registration, token-based login and a protected dashboard, developed as part of the Igrowker training program.",
+                    title: "RENO",
+                    description: "Smart platform for the digitalization of industrial processes, eliminating paper use and centralizing technical data in real time for efficient operational management.",
                     link: "https://i006-reno-arg-fullstack-1.onrender.com/login",
-                    tags: ["Fullstack", "React", "Node.js"],
+                    tags: ["Web App", "Utility"],
                 }
             ]
         },

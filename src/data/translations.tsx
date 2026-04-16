@@ -15,7 +15,8 @@ export const translations = {
         },
         about: {
             title: 'Sobre mí',
-            bio: <>Mi nombre es <strong>Santiago Greco</strong>, Analista de Datos y estudiante avanzado de Ingeniería Industrial. Me especializo en transformar datos complejos en insights accionables y en construir soluciones inteligentes para impulsar el crecimiento empresarial. Mi formación me proporciona un enfoque sistémico y orientado a soluciones para cada proyecto que emprendo.</>
+            bio: <>Mi nombre es <strong>Santiago Greco</strong>, Ingeniero Industrial y analista de datos. Me especializo en transformar datos complejos en insights accionables y en construir soluciones inteligentes para impulsar el crecimiento empresarial. Mi formación me proporciona un enfoque sistémico y orientado a soluciones para cada proyecto que emprendo.</>,
+            martinaBio: <>Mi nombre es <strong>Martina Greco</strong>, Diseñadora UX/UI especialista en jerarquía visual, modularidad y sistemas de diseño para productos digitales. Tengo experiencia en sistemas modulares y optimización de flujos de identidad en apps, y actualmente acompaño la transición de proyectos freelance hacia estructuras de negocio escalables y sostenibles.</>,
         },
         projects: {
             title: 'Proyectos',
@@ -38,6 +39,12 @@ export const translations = {
                     title: "Calculadora de Asado",
                     description: "Herramienta inteligente y rápida para calcular con precisión la cantidad de comida, bebida y carbón necesarios según tus invitados.",
                     link: "https://asadito-site.netlify.app",
+                    tags: ["Web App", "Utilidad"],
+                },
+                {
+                    title: "RENO",
+                    description: "Plataforma inteligente para la digitalización de procesos industriales, eliminando el uso de papel y centralizando datos técnicos en tiempo real para una gestión operativa eficiente.",
+                    link: "https://i006-reno-arg-fullstack-1.onrender.com/login",
                     tags: ["Web App", "Utilidad"],
                 }
             ]
@@ -94,7 +101,8 @@ export const translations = {
         },
         about: {
             title: 'About me',
-            bio: <>My name is <strong>Santiago Greco</strong>, a Data Analyst and advanced Industrial Engineering student. I specialize in transforming complex data into actionable insights and building intelligent solutions to drive business growth. My background provides me with a systemic, solution-oriented approach for every project I undertake.</>
+            bio: <>My name is <strong>Santiago Greco</strong>, an Industrial Engineer and data analyst. I specialize in transforming complex data into actionable insights and building intelligent solutions to drive business growth. My background provides me with a systemic, solution-oriented approach for every project I undertake.</>,
+            martinaBio: <>My name is <strong>Martina Greco</strong>, a UX/UI Designer specialized in visual hierarchy, modularity, and design systems for digital products. I have experience in modular systems and identity flow optimization in apps, and I currently help projects transition from freelance structures into scalable, sustainable business models.</>,
         },
         projects: {
             title: 'Projects',
@@ -117,6 +125,12 @@ export const translations = {
                     title: "BBQ Calculator",
                     description: "Fast and smart tool to accurately calculate the amount of food, drinks, and charcoal needed based on your guests.",
                     link: "https://asadito-site.netlify.app",
+                    tags: ["Web App", "Utility"],
+                },
+                {
+                    title: "RENO",
+                    description: "Smart platform for the digitalization of industrial processes, eliminating paper use and centralizing technical data in real time for efficient operational management.",
+                    link: "https://i006-reno-arg-fullstack-1.onrender.com/login",
                     tags: ["Web App", "Utility"],
                 }
             ]

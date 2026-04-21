@@ -4,17 +4,17 @@ import { DataIcon, AIIcon, WebAppIcon, LandingPageIcon } from '../assets/icons';
 export const translations = {
     es: {
         nav: {
-            about: 'Sobre mí',
+            about: 'Sobre nosotros',
             projects: 'Proyectos',
             services: 'Servicios',
             contact: 'Contacto'
         },
         hero: {
             subtitle: 'Soluciones basadas en datos para los desafíos modernos.',
-            cta: 'Ver Mis Proyectos'
+            cta: 'Ver Nuestros Proyectos'
         },
         about: {
-            title: 'Sobre mí',
+            title: 'Sobre nosotros',
             bio: <>Mi nombre es <strong>Santiago Greco</strong>, Ingeniero Industrial y analista de datos. Me especializo en transformar datos complejos en insights accionables y en construir soluciones inteligentes para impulsar el crecimiento empresarial. Mi formación me proporciona un enfoque sistémico y orientado a soluciones para cada proyecto que emprendo.</>,
             martinaBio: <>Mi nombre es <strong>Martina Greco</strong>, Diseñadora UX/UI especialista en jerarquía visual, modularidad y sistemas de diseño para productos digitales. Tengo experiencia en sistemas modulares y optimización de flujos de identidad en apps, y actualmente acompaño la transición de proyectos freelance hacia estructuras de negocio escalables y sostenibles.</>,
         },
@@ -54,22 +54,22 @@ export const translations = {
             list: [
                 {
                     title: "Soluciones con Datos",
-                    description: "Desde la limpieza y análisis de datos hasta la creación de dashboards e informes completos, ofrezco soluciones integrales.",
+                    description: "Desde la limpieza y análisis de datos hasta la creación de dashboards e informes completos, ofrecemos soluciones integrales.",
                     icon: <DataIcon className="h-10 w-10 text-brand-teal" />
                 },
                 {
                     title: "Herramientas con IA",
-                    description: "Desarrollo modelos personalizados de inteligencia artificial para automatizar procesos, predecir resultados y descubrir oportunidades.",
+                    description: "Desarrollamos modelos personalizados de inteligencia artificial para automatizar procesos, predecir resultados y descubrir oportunidades.",
                     icon: <AIIcon className="h-10 w-10 text-brand-teal" />
                 },
                 {
                     title: "Desarrollo Web",
-                    description: "Creo aplicaciones web responsivas y fáciles de usar para dar vida a sus soluciones de datos e IA.",
+                    description: "Creamos aplicaciones web responsivas y fáciles de usar para dar vida a sus soluciones de datos e IA.",
                     icon: <WebAppIcon className="h-10 w-10 text-brand-teal" />
                 },
                 {
                     title: "Landing Pages",
-                    description: "Diseño y desarrollo páginas web atractivas y optimizadas para la conversión, perfectas para lanzar productos.",
+                    description: "Diseñamos y desarrollamos páginas web atractivas y optimizadas para la conversión, perfectas para lanzar productos.",
                     icon: <LandingPageIcon className="h-10 w-10 text-brand-teal" />
                 }
             ]
@@ -81,8 +81,8 @@ export const translations = {
             message: 'Mensaje',
             send: 'Enviar Mensaje',
             sending: 'Enviando...',
-            success: '¡Gracias! Tu mensaje ha sido enviado correctamente. Te responderé a la brevedad.',
-            error: 'Hubo un error al enviar el mensaje. Intenta escribirme directamente a mis redes.'
+            success: '¡Gracias! Tu mensaje ha sido enviado correctamente. Nos comunicaremos a la brevedad.',
+            error: 'Hubo un error al enviar el mensaje. Intentá escribirnos directamente a nuestras redes.'
         },
         footer: {
             rights: 'Todos los derechos reservados. Gresolutions'
@@ -90,17 +90,17 @@ export const translations = {
     },
     en: {
         nav: {
-            about: 'About Me',
+            about: 'About Us',
             projects: 'Projects',
             services: 'Services',
             contact: 'Contact'
         },
         hero: {
             subtitle: 'Data-driven solutions for modern challenges.',
-            cta: 'View My Projects'
+            cta: 'View Our Projects'
         },
         about: {
-            title: 'About me',
+            title: 'About Us',
             bio: <>My name is <strong>Santiago Greco</strong>, an Industrial Engineer and data analyst. I specialize in transforming complex data into actionable insights and building intelligent solutions to drive business growth. My background provides me with a systemic, solution-oriented approach for every project I undertake.</>,
             martinaBio: <>My name is <strong>Martina Greco</strong>, a UX/UI Designer specialized in visual hierarchy, modularity, and design systems for digital products. I have experience in modular systems and identity flow optimization in apps, and I currently help projects transition from freelance structures into scalable, sustainable business models.</>,
         },
@@ -140,22 +140,22 @@ export const translations = {
             list: [
                 {
                     title: "Data Solutions",
-                    description: "From data cleaning and analysis to creating comprehensive dashboards and reports, I offer end-to-end data solutions.",
+                    description: "From data cleaning and analysis to creating comprehensive dashboards and reports, we offer end-to-end data solutions.",
                     icon: <DataIcon className="h-10 w-10 text-brand-teal" />
                 },
                 {
                     title: "AI Tools",
-                    description: "I develop custom artificial intelligence models to automate processes, predict outcomes, and uncover opportunities.",
+                    description: "We develop custom artificial intelligence models to automate processes, predict outcomes, and uncover opportunities.",
                     icon: <AIIcon className="h-10 w-10 text-brand-teal" />
                 },
                 {
                     title: "Web App Development",
-                    description: "I build responsive and user-friendly web applications to bring your data and AI solutions to life.",
+                    description: "We build responsive and user-friendly web applications to bring your data and AI solutions to life.",
                     icon: <WebAppIcon className="h-10 w-10 text-brand-teal" />
                 },
                 {
                     title: "Landing Pages",
-                    description: "I design and develop attractive, conversion-optimized landing pages perfect for product launches or lead generation.",
+                    description: "We design and develop attractive, conversion-optimized landing pages perfect for product launches or lead generation.",
                     icon: <LandingPageIcon className="h-10 w-10 text-brand-teal" />
                 }
             ]
@@ -167,8 +167,8 @@ export const translations = {
             message: 'Message',
             send: 'Send Message',
             sending: 'Sending...',
-            success: 'Thank you! Your message was sent successfully. I will reach back soon.',
-            error: 'There was an error sending the message. Please try contacting me directly on my socials.'
+            success: 'Thank you! Your message was sent successfully. We will get back to you soon.',
+            error: 'There was an error sending the message. Please try contacting us directly on our socials.'
         },
         footer: {
             rights: 'All rights reserved. Gresolutions'

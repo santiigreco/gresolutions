@@ -15,7 +15,8 @@ export const translations = {
         },
         about: {
             title: 'Sobre mí',
-            bio: <>Mi nombre es <strong>Santiago Greco</strong>, Analista de Datos y estudiante avanzado de Ingeniería Industrial. Me especializo en transformar datos complejos en insights accionables y en construir soluciones inteligentes para impulsar el crecimiento empresarial. Mi formación me proporciona un enfoque sistémico y orientado a soluciones para cada proyecto que emprendo.</>
+            bio: <>Mi nombre es <strong>Santiago Greco</strong>, Analista de Datos y estudiante avanzado de Ingeniería Industrial. Me especializo en transformar datos complejos en insights accionables y en construir soluciones inteligentes para impulsar el crecimiento empresarial. Mi formación me proporciona un enfoque sistémico y orientado a soluciones para cada proyecto que emprendo.</>,
+            martinaBio: <>Mi nombre es <strong>Martina Greco</strong>, Diseñadora UX/UI especialista en jerarquía visual, modularidad y sistemas de diseño para productos digitales. Tengo experiencia en sistemas modulares y optimización de flujos de identidad en apps, y actualmente acompaño la transición de proyectos freelance hacia estructuras de negocio escalables y sostenibles.</>,
         },
         projects: {
             title: 'Proyectos',
@@ -27,6 +28,7 @@ export const translations = {
                     description: "Diseño de EPK estratégico y branding visual. Optimizado para potenciar el booking y la comunicación profesional en la industria musical.",
                     link: "https://jansound.com/",
                     tags: ["EPK", "Web Design", "Music"],
+                    cta: "Visitar Web",
                 },
                 {
                     title: "Cesto Tracker",
@@ -100,7 +102,8 @@ export const translations = {
         },
         about: {
             title: 'About me',
-            bio: <>My name is <strong>Santiago Greco</strong>, a Data Analyst and advanced Industrial Engineering student. I specialize in transforming complex data into actionable insights and building intelligent solutions to drive business growth. My background provides me with a systemic, solution-oriented approach for every project I undertake.</>
+            bio: <>My name is <strong>Santiago Greco</strong>, a Data Analyst and advanced Industrial Engineering student. I specialize in transforming complex data into actionable insights and building intelligent solutions to drive business growth. My background provides me with a systemic, solution-oriented approach for every project I undertake.</>,
+            martinaBio: <>My name is <strong>Martina Greco</strong>, a UX/UI Designer specialized in visual hierarchy, modularity, and design systems for digital products. I have experience in modular systems and identity flow optimization in apps, and I currently help projects transition from freelance structures into scalable, sustainable business models.</>,
         },
         projects: {
             title: 'Projects',
@@ -112,6 +115,7 @@ export const translations = {
                     description: "Strategic EPK design and visual branding. Optimized to boost booking and professional communication in the music industry.",
                     link: "https://jansound.com/",
                     tags: ["EPK", "Web Design", "Music"],
+                    cta: "Visit Website",
                 },
                 {
                     title: "Cesto Tracker",

@@ -21,7 +21,7 @@ const ProjectCard: FC<{ project: Project; cta: string }> = ({ project, cta }) =>
                 rel="noopener noreferrer" 
                 className="mt-auto bg-brand-teal text-white font-sans font-bold py-2 px-6 rounded-full hover:bg-brand-navy transition-all duration-300 transform hover:scale-105 inline-flex items-center group"
             >
-                {cta}
+                {project.cta || cta}
                 <svg className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
             </a>
         </div>

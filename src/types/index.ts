@@ -5,6 +5,7 @@ export interface Project {
   description: string;
   link: string;
   tags: string[];
+  cta?: string;
 }
 
 export interface Service {

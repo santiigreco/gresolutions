@@ -24,6 +24,13 @@ export const translations = {
             cta: 'Visitar App',
             list: [
                 {
+                    title: "Music Presskit",
+                    description: "Diseño de EPK estratégico y branding visual. Optimizado para potenciar el booking y la comunicación profesional en la industria musical.",
+                    link: "https://jansound.com/",
+                    tags: ["EPK", "Web Design", "Music"],
+                    cta: "Visitar Web",
+                },
+                {
                     title: "Cesto Tracker",
                     description: "WebApp para registrar partidos en vivo de Cestoball.",
                     link: "https://cestotracker.com",
@@ -109,6 +116,13 @@ export const translations = {
             filterAll: 'All',
             cta: 'Visit App',
             list: [
+                {
+                    title: "Music Presskit",
+                    description: "Strategic EPK design and visual branding. Optimized to boost booking and professional communication in the music industry.",
+                    link: "https://jansound.com/",
+                    tags: ["EPK", "Web Design", "Music"],
+                    cta: "Visit Website",
+                },
                 {
                     title: "Cesto Tracker",
                     description: "WebApp to track live Cestoball matches.",

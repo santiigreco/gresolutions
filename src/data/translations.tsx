@@ -74,12 +74,6 @@ export const translations = {
                     tagline: "Optimización de recursos y diseño de producto.",
                     problem: "La planificación logística para eventos gastronómicos tradicionales suele calcularse de forma empírica, derivando en presupuestos deficientes o bien en sobrecostos financieros innecesarios debido al desperdicio de suministros.",
                     solution: "Creación de una herramienta digital interactiva basada en parámetros de consumo calibrados. A través de una interfaz ultra limpia y rápida, el sistema procesa la audiencia (adultos, niños) y sus preferencias específicas de menú para arrojar una lista de compras exacta, profesionalizando la organización y optimizando el presupuesto."
-                },
-                {
-                    title: "RENO",
-                    description: "Plataforma inteligente para la digitalización de procesos industriales, eliminando el uso de papel y centralizando datos técnicos en tiempo real para una gestión operativa eficiente.",
-                    link: "https://i006-reno-arg-fullstack-1.onrender.com/login",
-                    tags: ["Web App", "Utilidad"],
                 }
             ]
         },
@@ -194,12 +188,6 @@ export const translations = {
                     tagline: "Resource optimization and product design.",
                     problem: "Logistical planning for traditional culinary events is usually calculated empirically, leading to poor budgets or unnecessary financial overcosts due to wasted supplies.",
                     solution: "Creation of an interactive digital tool based on calibrated consumption parameters. Through an ultra-clean and fast interface, the system processes the audience (adults, children) and their specific menu preferences to output an exact shopping list, professionalizing the organization and optimizing the budget."
-                },
-                {
-                    title: "RENO",
-                    description: "Smart platform for the digitalization of industrial processes, eliminating paper use and centralizing technical data in real time for efficient operational management.",
-                    link: "https://i006-reno-arg-fullstack-1.onrender.com/login",
-                    tags: ["Web App", "Utility"],
                 }
             ]
         },

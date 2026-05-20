@@ -6,6 +6,9 @@ export interface Project {
   link: string;
   tags: string[];
   cta?: string;
+  tagline?: string;
+  problem?: string;
+  solution?: string;
 }
 
 export interface Service {

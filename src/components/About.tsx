@@ -22,7 +22,7 @@ export const About: FC = () => {
               </div>
               <div className="flex-1 min-w-0">
                 <h3 className="text-2xl font-bold text-white mb-1">Santiago Greco</h3>
-                <p className="text-brand-teal text-sm font-semibold uppercase tracking-wider mb-4">Data Analyst & Engineeer</p>
+                <p className="text-brand-teal text-sm font-semibold uppercase tracking-wider mb-4">{t.about.santiagoRole}</p>
                 <div className="h-px w-12 bg-brand-teal/30 mx-auto mb-4"></div>
                 <p className="font-serif text-lg text-gray-300 leading-relaxed italic">
                   {t.about.bio}
@@ -41,7 +41,7 @@ export const About: FC = () => {
               </div>
               <div className="flex-1 min-w-0">
                 <h3 className="text-2xl font-bold text-white mb-1">Martina Greco</h3>
-                <p className="text-brand-teal text-sm font-semibold uppercase tracking-wider mb-4">UX/UI Designer</p>
+                <p className="text-brand-teal text-sm font-semibold uppercase tracking-wider mb-4">{t.about.martinaRole}</p>
                 <div className="h-px w-12 bg-brand-teal/30 mx-auto mb-4"></div>
                 <p className="font-serif text-lg text-gray-300 leading-relaxed italic">
                   {t.about.martinaBio}

@@ -20,11 +20,12 @@ export const About: FC = () => {
                   className="w-full h-full object-cover rounded-full border-4 border-brand-dark"
                 />
               </div>
-              <div style={{ minWidth: 0 }}>
-                <h3 className="text-xl font-bold text-white mb-1">Santiago Greco</h3>
-                <p className="text-brand-teal text-sm font-medium mb-3">Ingeniero Industrial</p>
+              <div className="flex-1 min-w-0" style={{ minWidth: 0 }}>
+                <h3 className="text-2xl font-bold text-white mb-1">Santiago Greco</h3>
+                <p className="text-brand-teal text-sm font-semibold uppercase tracking-wider mb-4">{t.about.santiagoRole}</p>
+                <div className="h-px w-12 bg-brand-teal/30 mx-auto mb-4"></div>
                 <p
-                  className="font-serif text-lg text-gray-300 leading-relaxed"
+                  className="font-serif text-lg text-gray-300 leading-relaxed italic"
                   style={{ hyphens: 'auto', wordWrap: 'break-word', overflowWrap: 'break-word' }}
                 >
                   {t.about.bio}
@@ -41,11 +42,12 @@ export const About: FC = () => {
                   className="w-full h-full object-cover rounded-full border-4 border-brand-dark"
                 />
               </div>
-              <div style={{ minWidth: 0 }}>
-                <h3 className="text-xl font-bold text-white mb-1">Martina Greco</h3>
-                <p className="text-brand-teal text-sm font-medium mb-3">Diseñadora UX/UI</p>
+              <div className="flex-1 min-w-0" style={{ minWidth: 0 }}>
+                <h3 className="text-2xl font-bold text-white mb-1">Martina Greco</h3>
+                <p className="text-brand-teal text-sm font-semibold uppercase tracking-wider mb-4">{t.about.martinaRole}</p>
+                <div className="h-px w-12 bg-brand-teal/30 mx-auto mb-4"></div>
                 <p
-                  className="font-serif text-lg text-gray-300 leading-relaxed"
+                  className="font-serif text-lg text-gray-300 leading-relaxed italic"
                   style={{ hyphens: 'auto', wordWrap: 'break-word', overflowWrap: 'break-word' }}
                 >
                   {t.about.martinaBio}

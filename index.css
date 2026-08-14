@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-teal: #008080;
+  --color-brand-teal: #1e7e89;
   --color-brand-gray: #F5F5F5;
-  --color-brand-navy: #000080;
-  --color-brand-dark: #111827;
+  --color-brand-navy: #0a1118;
+  --color-brand-dark: #070c12;
   --color-brand-light: #FFFFFF;
-  --color-brand-deep-dark: #0a0f1f;
+  --color-brand-deep-dark: #04070a;
   
   --font-sans: 'Montserrat', sans-serif;
   --font-serif: 'Lora', serif;
@@ -22,4 +22,40 @@
       transform: translateY(-10px);
     }
   }
+}
+
+/* Custom UI Button Styles */
+.btn-primary-glow {
+  background: linear-gradient(135deg, #1b6d77 0%, #1e7e89 50%, #2bb2c2 100%);
+  box-shadow: 0 0 15px rgba(30, 126, 137, 0.4);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-primary-glow:hover {
+  box-shadow: 0 0 25px rgba(30, 126, 137, 0.8);
+  transform: translateY(-2px);
+}
+
+.btn-primary-glow:active {
+  transform: translateY(0);
+}
+
+.btn-secondary-ghost {
+  background: rgba(10, 17, 24, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(30, 126, 137, 0.4);
+  box-shadow: inset 0 0 10px rgba(30, 126, 137, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-secondary-ghost:hover {
+  background: rgba(30, 126, 137, 0.15);
+  border-color: rgba(30, 126, 137, 0.8);
+  box-shadow: 0 0 15px rgba(30, 126, 137, 0.3), inset 0 0 10px rgba(30, 126, 137, 0.2);
+  transform: translateY(-2px);
+}
+
+.btn-secondary-ghost:active {
+  transform: translateY(0);
 }

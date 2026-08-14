@@ -9,7 +9,7 @@ export const NAV_LINKS = [
     { name: 'Contacto', href: '#contacto' },
 ];
 
-export const PROJECTS: Project[] = [
+export const PROJECTS: Partial<Project>[] = [
   {
     title: "Cesto Tracker",
     description: "WebApp para registrar partidos en vivo de Cestoball.",
@@ -54,7 +54,7 @@ export const SERVICES: Service[] = [
 ];
 
 export const SOCIALS = {
-    email: "gresolutions.info@gmail.com",
     linkedin: "https://www.linkedin.com/in/santiago-greco-/",
     instagram: "https://www.instagram.com/gresolutions/",
+    github: "https://github.com/santiigreco"
 };

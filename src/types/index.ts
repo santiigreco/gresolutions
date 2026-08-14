@@ -4,11 +4,15 @@ export interface Project {
   title: string;
   description: string;
   link: string;
+  category: 'web-ecommerce' | 'branding-digital' | 'apps-tools';
   tags: string[];
   cta?: string;
   tagline?: string;
-  problem?: string;
-  solution?: string;
+  role: string;
+  stack: string[];
+  challenge: string;
+  delivery: string;
+  image?: string;
 }
 
 export interface Service {

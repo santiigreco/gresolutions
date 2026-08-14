@@ -1,11 +1,11 @@
 import React, { FC, useState } from 'react';
 import { Section, SectionTitle } from './Section';
 import { SOCIALS } from '../data/constants';
-import { LinkedInIcon, InstagramIcon } from '../assets/icons';
+import { LinkedInIcon, InstagramIcon, GitHubIcon, BehanceIcon, EmailIcon } from '../assets/icons';
 import { useLanguage } from '../context/LanguageContext';
 
 export const Contact: FC = () => {
-    const { t } = useLanguage();
+    const { t, language } = useLanguage();
     const [status, setStatus] = useState<'' | 'loading' | 'success' | 'error'>('');
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -38,6 +38,11 @@ export const Contact: FC = () => {
     return (
         <Section id="contacto" className="">
             <SectionTitle emoji="✉️">{t.contact.title}</SectionTitle>
+            <p className="font-serif text-lg md:text-xl text-gray-300 text-center max-w-xl mx-auto mb-10 leading-relaxed">
+                {language === 'es' 
+                    ? '¿Tienes un proyecto en mente? Hablemos y hagámoslo realidad.' 
+                    : "Have a project in mind? Let's talk and make it happen."}
+            </p>
             <div className="max-w-2xl mx-auto">
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
@@ -75,9 +80,15 @@ export const Contact: FC = () => {
                         </button>
                     </div>
                 </form>
-                <div className="flex justify-center space-x-6 mt-12">
-                    <a href={SOCIALS.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-brand-teal transition-colors transform hover:scale-110"><LinkedInIcon className="h-8 w-8" /></a>
-                    <a href={SOCIALS.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-400 hover:text-brand-teal transition-colors transform hover:scale-110"><InstagramIcon className="h-8 w-8" /></a>
+                <div className="flex justify-center flex-wrap gap-6 md:gap-10 mt-12 border-t border-brand-teal/15 pt-8">
+                    <a href={SOCIALS.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-brand-teal transition-colors transform hover:scale-105 flex items-center gap-2 font-sans font-semibold text-sm">
+                        <LinkedInIcon className="h-6 w-6" />
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href={SOCIALS.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-gray-400 hover:text-brand-teal transition-colors transform hover:scale-105 flex items-center gap-2 font-sans font-semibold text-sm">
+                        <GitHubIcon className="h-6 w-6" />
+                        <span>GitHub</span>
+                    </a>
                 </div>
             </div>
         </Section>

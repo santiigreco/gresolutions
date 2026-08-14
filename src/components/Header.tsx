@@ -30,7 +30,7 @@ export const Header: FC = () => {
     return (
         <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-brand-deep-dark/80 backdrop-blur-lg shadow-md' : 'bg-transparent'}`}>
             <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-                <a href="#hero" onClick={smoothScrollTo} className="font-sans font-bold text-xl text-brand-light hover:text-brand-teal transition-colors">
+                <a href="#hero" onClick={smoothScrollTo} className="font-sans font-bold text-xl text-white hover:text-brand-teal transition-colors tracking-wide">
                     Gresolutions
                 </a>
                 <div className="flex items-center space-x-6 md:space-x-8">
@@ -55,7 +55,7 @@ export const Header: FC = () => {
                     </div>
                     <button 
                         onClick={toggleLanguage}
-                        className="px-3 py-1 font-sans text-sm font-bold bg-gray-800 border border-brand-teal text-brand-light rounded hover:bg-brand-teal transition-all active:scale-95 shadow-sm"
+                        className="px-3.5 py-1 font-sans text-xs font-bold bg-white/5 border border-white/10 text-white rounded-lg hover:bg-white/10 hover:border-white/20 transition-all active:scale-95 shadow-sm tracking-wider cursor-pointer"
                     >
                         {language === 'es' ? 'EN' : 'ES'}
                     </button>

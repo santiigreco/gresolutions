@@ -156,7 +156,7 @@ export const translations = {
                 {
                     title: "Asadito",
                     description: "Herramienta inteligente y rápida para calcular con precisión la cantidad de comida, bebida y carbón necesarios según tus invitados.",
-                    link: "https://asadito-site.netlify.app",
+                    link: "https://asadito.site/",
                     category: "apps-tools" as const,
                     tags: ["Web Utility / Tool"],
                     cta: "Visitar Web",
@@ -164,7 +164,8 @@ export const translations = {
                     role: "Product Design & Frontend Development por Gresolutions",
                     stack: ["HTML5", "CSS3", "JavaScript", "UX/UI Design"],
                     challenge: "La planificación logística para eventos gastronómicos tradicionales suele calcularse de forma empírica, derivando en presupuestos deficientes o bien en sobrecostos financieros innecesarios debido al desperdicio de suministros.",
-                    delivery: "Creación de una herramienta digital interactiva basada en parámetros de consumo calibrados. A través de una interfaz ultra limpia y rápida, el sistema procesa la audiencia (adultos, niños) y sus preferencias específicas de menú para arrojar una lista de compras exacta, profesionalizando la organización y optimizando el presupuesto."
+                    delivery: "Creación de una herramienta digital interactiva basada en parámetros de consumo calibrados. A través de una interfaz ultra limpia y rápida, el sistema procesa la audiencia (adultos, niños) y sus preferencias específicas de menú para arrojar una lista de compras exacta, profesionalizando la organización y optimizando el presupuesto.",
+                    image: "/asaditosite.png"
                 }
             ]
         },
@@ -205,7 +206,37 @@ export const translations = {
         },
         footer: {
             rights: 'Todos los derechos reservados. Gresolutions'
-        }
+        },
+        stats: [
+            { value: "+15", label: "Proyectos Entregados" },
+            { value: "95%", label: "Promedio Lighthouse" },
+            { value: "100%", label: "Clientes Satisfechos" },
+            { value: "+8", label: "Soluciones de Datos e IA" }
+        ],
+        testimonials: {
+            title: "Lo que dicen nuestros clientes",
+            list: [
+                {
+                    quote: "Gresolutions transformó por completo nuestro canal de ventas. Pasamos de un desorden operativo por WhatsApp a una tienda automatizada impecable que elevó el valor de nuestra marca. La atención al detalle y el diseño son de otro nivel.",
+                    author: "Judith",
+                    role: "Fundadora de ByJudite",
+                    project: "ByJudite (E-Commerce)"
+                },
+                {
+                    quote: "El EPK interactivo superó todas nuestras expectativas. Los bookers y promotores ahora responden mucho más rápido gracias a la fluidez de los reproductores y la facilidad de descarga. Es nuestra mejor carta de presentación.",
+                    author: "Jansound",
+                    role: "DJ & Productor",
+                    project: "EPK Jansound (Web Interactiva)"
+                },
+                {
+                    quote: "Trabajar con Santiago y Martina fue excelente. No solo crearon una web con un diseño impactante y moderno, sino que la velocidad de carga es increíble (Lighthouse 95+). Se nota el profesionalismo técnico.",
+                    author: "Gastón",
+                    role: "Fundador de MicrosParty",
+                    project: "MicrosParty (Landing Page)"
+                }
+            ]
+        },
+        floatingCTA: "¡Hablemos!"
     },
     en: {
         nav: {
@@ -361,7 +392,7 @@ export const translations = {
                 {
                     title: "Asadito",
                     description: "Fast and smart tool to accurately calculate the amount of food, drinks, and charcoal needed based on your guests.",
-                    link: "https://asadito-site.netlify.app",
+                    link: "https://asadito.site/",
                     category: "apps-tools" as const,
                     tags: ["Web Utility / Tool"],
                     cta: "Visit Website",
@@ -369,7 +400,8 @@ export const translations = {
                     role: "Product Design & Frontend Development by Gresolutions",
                     stack: ["HTML5", "CSS3", "JavaScript", "UX/UI Design"],
                     challenge: "Logistical planning for traditional culinary events is usually calculated empirically, leading to poor budgets or unnecessary financial overcosts due to wasted supplies.",
-                    delivery: "Creation of an interactive digital tool based on calibrated consumption parameters. Through an ultra-clean and fast interface, the system processes the audience (adults, children) and their specific menu preferences to output an exact shopping list, professionalizing the organization and optimizing the budget."
+                    delivery: "Creation of an interactive digital tool based on calibrated consumption parameters. Through an ultra-clean and fast interface, the system processes the audience (adults, children) and their specific menu preferences to output an exact shopping list, professionalizing the organization and optimizing the budget.",
+                    image: "/asaditosite.png"
                 }
             ]
         },
@@ -410,6 +442,36 @@ export const translations = {
         },
         footer: {
             rights: 'All rights reserved. Gresolutions'
-        }
+        },
+        stats: [
+            { value: "+15", label: "Projects Delivered" },
+            { value: "95%", label: "Average Lighthouse Score" },
+            { value: "100%", label: "Satisfied Clients" },
+            { value: "+8", label: "Data & AI Solutions" }
+        ],
+        testimonials: {
+            title: "What our clients say",
+            list: [
+                {
+                    quote: "Gresolutions completely transformed our sales channel. We went from operational chaos on WhatsApp to an impeccable automated store that elevated our brand value. The attention to detail and design are on another level.",
+                    author: "Judith",
+                    role: "Founder of ByJudite",
+                    project: "ByJudite (E-Commerce)"
+                },
+                {
+                    quote: "The interactive EPK exceeded all our expectations. Bookers and promoters now respond much faster thanks to the fluid players and easy downloads. It's our best calling card.",
+                    author: "Jansound",
+                    role: "DJ & Producer",
+                    project: "EPK Jansound (Interactive Web)"
+                },
+                {
+                    quote: "Working with Santiago and Martina was excellent. Not only did they create a website with an impactful and modern design, but the loading speed is incredible (Lighthouse 95+). Their technical professionalism is evident.",
+                    author: "Gastón",
+                    role: "Founder of MicrosParty",
+                    project: "MicrosParty (Landing Page)"
+                }
+            ]
+        },
+        floatingCTA: "Let's talk!"
     }
 }

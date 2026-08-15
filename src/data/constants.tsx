@@ -25,7 +25,7 @@ export const PROJECTS: Partial<Project>[] = [
   {
     title: "Calculadora de Asado",
     description: "Herramienta inteligente y rápida para calcular con precisión la cantidad de comida, bebida y carbón necesarios según tus invitados.",
-    link: "https://asadito-site.netlify.app",
+    link: "https://asadito.site/",
     tags: ["Web App", "Utilidad"],
   },
 ];

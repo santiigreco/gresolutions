@@ -18,6 +18,25 @@ export const About: FC = () => {
                 </div>
             </div>
 
+            {/* --- Quantitative Stats --- */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+                {t.stats.map((stat, idx) => (
+                    <div 
+                        key={idx} 
+                        className="p-0.5 bg-gradient-to-br from-brand-teal/30 via-brand-dark to-brand-navy/30 rounded-xl shadow-md hover:shadow-brand-teal/15 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                    >
+                        <div className="bg-brand-dark/95 rounded-[10px] p-5 text-center flex flex-col justify-center h-full">
+                            <span className="font-sans font-black text-3xl md:text-4xl bg-gradient-to-r from-brand-light via-brand-teal to-brand-light bg-clip-text text-transparent mb-1">
+                                {stat.value}
+                            </span>
+                            <span className="font-sans text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-wider">
+                                {stat.label}
+                            </span>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
             {/* --- Capabilities / Stack --- */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Dev Column */}

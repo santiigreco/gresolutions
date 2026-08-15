@@ -63,6 +63,9 @@ export const Hero: FC = () => {
             if (!canvas) return;
             width = canvas.width = window.innerWidth;
             height = canvas.height = window.innerHeight;
+            if (window.innerWidth < 768) {
+                draw();
+            }
         };
 
         window.addEventListener('mousemove', handleMouseMove);
@@ -86,6 +89,10 @@ export const Hero: FC = () => {
             bgGrad.addColorStop(1, '#04070a');
             ctx.fillStyle = bgGrad;
             ctx.fillRect(0, 0, width, height);
+
+            if (isMobile) {
+                return;
+            }
 
             // Draw particles
             for (let i = 0; i < particles.length; i++) {

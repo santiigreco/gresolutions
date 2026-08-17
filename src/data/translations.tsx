@@ -53,7 +53,7 @@ export const translations = {
                     stack: ["Figma", "Tienda Nube", "CSS3 Custom"],
                     challenge: "Descentralización y fragmentación de los canales de atención y venta (Instagram y WhatsApp), generando cuellos de botella operativos, pérdida de trazabilidad de los usuarios y fricciones en el embudo de compra que limitaban la escala.",
                     delivery: "Desarrollo integral de una plataforma e-commerce a medida bajo una estética minimalista de alta gama. Centralizamos el ecosistema digital unificando la identidad visual y optimizando los puntos de contacto críticos (catálogo y checkout), transformando la navegación en una experiencia inmersiva de fricción cero que automatiza las ventas y eleva el valor percibido del negocio.",
-                    image: "/ByJudite.png"
+                    image: "/ByJudite.webp"
                 },
                 {
                     title: "MicrosParty",
@@ -67,7 +67,7 @@ export const translations = {
                     stack: ["HTML5", "CSS3", "JavaScript", "Figma", "Lighthouse Optimization"],
                     challenge: "Rediseñar la presencia digital de MicrosParty para reflejar una estética moderna y profesional sin comprometer los tiempos de carga.",
                     delivery: "Dirección de arte, reestructuración de la jerarquía visual y maquetación Pixel-Perfect adaptada a dispositivos móviles. Maquetación frontend limpia en HTML5 y CSS3, optimización integral de imágenes (conversión a WebP) y maximización del rendimiento de carga (Lighthouse score 95+).",
-                    image: "/MicrosPArty.png"
+                    image: "/MicrosPArty.webp"
                 },
                 {
                     title: "Nizza",
@@ -81,7 +81,7 @@ export const translations = {
                     stack: ["Figma", "Tienda Nube", "CSS3"],
                     challenge: "Crear una tienda online que capture la esencia de Nizza Sublimados, organizando un catálogo diverso y destacando la identidad de la marca de forma clara.",
                     delivery: "Configuración y personalización del e-commerce enfocado en la composición tipográfica, jerarquía visual y diseño responsive para facilitar la compra y el reconocimiento de marca.",
-                    image: "/Nizza.png"
+                    image: "/Nizza.webp"
                 },
                 {
                     title: "11.04_DIGITAL",
@@ -95,7 +95,7 @@ export const translations = {
                     stack: ["Figma", "Adobe Suite", "Producción Digital", "Webflow"],
                     challenge: "Establecer una presencia de marca digital cohesiva y atractiva para el estudio creativo, comunicando el alcance de sus servicios y su visión artística.",
                     delivery: "Diseño de identidad de marca, dirección de arte digital y optimización del flujo de trabajo de producción de contenido para canales digitales, garantizando consistencia estética.",
-                    image: "/11.04Digital.png"
+                    image: "/11.04Digital.webp"
                 },
                 {
                     title: "EPK Jansound",
@@ -109,7 +109,7 @@ export const translations = {
                     stack: ["HTML5", "CSS3", "JavaScript", "Figma", "Audio Integrations"],
                     challenge: "Los DJs y productores musicales pierden oportunidades de contratación debido al uso de herramientas estáticas (PDFs pesados, enlaces dispersos de Drive) que no se adaptan a móviles y ralentizan la evaluación de los bookers.",
                     delivery: "Diseño y maquetación de un EPK interactivo y responsive de alto impacto cinemático. Desarrollamos una interfaz single-page que integra reproductores multimedia fluidos, galerías de prensa optimizadas en alta resolución y accesos directos de contratación, reduciendo drásticamente los tiempos de respuesta de los promotores.",
-                    image: "/JansoundEPK.png"
+                    image: "/JansoundEPK.webp"
                 },
                 {
                     title: "EPK Alejo V",
@@ -123,7 +123,7 @@ export const translations = {
                     stack: ["HTML5", "CSS3", "JavaScript", "Audio Integrations", "Cloud Storage APIs"],
                     challenge: "Diseñar un presskit digital para el artista Alejo V que centralice su material de prensa, permitiendo escuchar su música de forma fluida y descargar material promocional en alta calidad sin redirecciones complejas.",
                     delivery: "Creación de una interfaz interactiva oscura con reproductores de audio integrados, galería de fotos optimizada y un módulo de descarga directa para la prensa, optimizando las campañas de lanzamiento.",
-                    image: "/AlejoV.png"
+                    image: "/AlejoV.webp"
                 },
                 {
                     title: "Cesto Tracker",
@@ -137,7 +137,7 @@ export const translations = {
                     stack: ["React", "TypeScript", "Tailwind CSS", "Data Structures"],
                     challenge: "La falta de software especializado para deportes alternativos como el Cestoball obligaba a entrenadores y clubes a registrar estadísticas manualmente en papel, imposibilitando el análisis táctico estructurado y en tiempo real.",
                     delivery: "Construcción de una Web App táctil optimizada para dispositivos móviles centrada en la arquitectura de datos. Permite capturar puntos, faltas e interrupciones en vivo en menos de un segundo, procesando y centralizando las variables métricas al instante para la toma de decisiones estratégicas desde el banco de suplentes.",
-                    image: "/Mockup-CestoTracker.png"
+                    image: "/Mockup-CestoTracker.webp"
                 },
                 {
                     title: "Rota Pádel",
@@ -151,12 +151,12 @@ export const translations = {
                     stack: ["React", "PWA", "Tailwind CSS", "Algoritmos de Distribución"],
                     challenge: "La organización de partidos de pádel con dotaciones superiores a 4 jugadores suele generar demoras, emparejamientos desbalanceados y discusiones al calcular de forma justa los cruces de parejas y los turnos de descanso.",
                     delivery: "Desarrollo de una Aplicación Web Progresiva (PWA) potenciada por un algoritmo de distribución matemática. El sistema automatiza los cruces y gestiona los tiempos de juego y descanso óptimos de manera exacta, eliminando la fricción de coordinación directamente en el entorno de las canchas.",
-                    image: "/RotaPadel.png"
+                    image: "/RotaPadel.webp"
                 },
                 {
                     title: "Asadito",
                     description: "Herramienta inteligente y rápida para calcular con precisión la cantidad de comida, bebida y carbón necesarios según tus invitados.",
-                    link: "https://asadito-site.netlify.app",
+                    link: "https://asadito.site/",
                     category: "apps-tools" as const,
                     tags: ["Web Utility / Tool"],
                     cta: "Visitar Web",
@@ -164,7 +164,8 @@ export const translations = {
                     role: "Product Design & Frontend Development por Gresolutions",
                     stack: ["HTML5", "CSS3", "JavaScript", "UX/UI Design"],
                     challenge: "La planificación logística para eventos gastronómicos tradicionales suele calcularse de forma empírica, derivando en presupuestos deficientes o bien en sobrecostos financieros innecesarios debido al desperdicio de suministros.",
-                    delivery: "Creación de una herramienta digital interactiva basada en parámetros de consumo calibrados. A través de una interfaz ultra limpia y rápida, el sistema procesa la audiencia (adultos, niños) y sus preferencias específicas de menú para arrojar una lista de compras exacta, profesionalizando la organización y optimizando el presupuesto."
+                    delivery: "Creación de una herramienta digital interactiva basada en parámetros de consumo calibrados. A través de una interfaz ultra limpia y rápida, el sistema procesa la audiencia (adultos, niños) y sus preferencias específicas de menú para arrojar una lista de compras exacta, profesionalizando la organización y optimizando el presupuesto.",
+                    image: "/asaditosite.webp"
                 }
             ]
         },
@@ -205,7 +206,37 @@ export const translations = {
         },
         footer: {
             rights: 'Todos los derechos reservados. Gresolutions'
-        }
+        },
+        stats: [
+            { value: "+15", label: "Proyectos Entregados" },
+            { value: "95%", label: "Promedio Lighthouse" },
+            { value: "100%", label: "Clientes Satisfechos" },
+            { value: "+8", label: "Soluciones de Datos e IA" }
+        ],
+        testimonials: {
+            title: "Lo que dicen nuestros clientes",
+            list: [
+                {
+                    quote: "Gresolutions transformó por completo nuestro canal de ventas. Pasamos de un desorden operativo por WhatsApp a una tienda automatizada impecable que elevó el valor de nuestra marca. La atención al detalle y el diseño son de otro nivel.",
+                    author: "Judith",
+                    role: "Fundadora de ByJudite",
+                    project: "ByJudite (E-Commerce)"
+                },
+                {
+                    quote: "El EPK interactivo superó todas nuestras expectativas. Los bookers y promotores ahora responden mucho más rápido gracias a la fluidez de los reproductores y la facilidad de descarga. Es nuestra mejor carta de presentación.",
+                    author: "Jansound",
+                    role: "DJ & Productor",
+                    project: "EPK Jansound (Web Interactiva)"
+                },
+                {
+                    quote: "Trabajar con Santiago y Martina fue excelente. No solo crearon una web con un diseño impactante y moderno, sino que la velocidad de carga es increíble (Lighthouse 95+). Se nota el profesionalismo técnico.",
+                    author: "Gastón",
+                    role: "Fundador de MicrosParty",
+                    project: "MicrosParty (Landing Page)"
+                }
+            ]
+        },
+        floatingCTA: "¡Hablemos!"
     },
     en: {
         nav: {
@@ -258,7 +289,7 @@ export const translations = {
                     stack: ["Figma", "Tienda Nube", "Custom CSS3"],
                     challenge: "Decentralization and fragmentation of customer service and sales channels (Instagram and WhatsApp), generating operational bottlenecks, loss of user traceability, and friction in the sales funnel that limited scale.",
                     delivery: "Comprehensive development of a custom e-commerce platform under a high-end minimalist aesthetic. We centralized the digital ecosystem, unifying the visual identity and optimizing critical touchpoints (catalog and checkout), transforming navigation into an immersive, zero-friction experience that automates sales and elevates the perceived value of the business.",
-                    image: "/ByJudite.png"
+                    image: "/ByJudite.webp"
                 },
                 {
                     title: "MicrosParty",
@@ -272,7 +303,7 @@ export const translations = {
                     stack: ["HTML5", "CSS3", "JavaScript", "Figma", "Lighthouse Optimization"],
                     challenge: "Redesign the digital presence of MicrosParty to reflect a modern and professional aesthetic without compromising load times.",
                     delivery: "Art direction, restructuring of visual hierarchy, and pixel-perfect responsive layout for mobile devices. Clean frontend development in HTML5/CSS3, complete image optimization (WebP conversion), and maximum performance (Lighthouse score 95+).",
-                    image: "/MicrosPArty.png"
+                    image: "/MicrosPArty.webp"
                 },
                 {
                     title: "Nizza",
@@ -286,7 +317,7 @@ export const translations = {
                     stack: ["Figma", "Tienda Nube", "CSS3"],
                     challenge: "Create an online store that captures the essence of Nizza Sublimados, organizing a diverse catalog and highlighting the brand identity clearly.",
                     delivery: "Configuration and customization of the e-commerce focused on typography layout, visual hierarchy, and responsive design to facilitate purchases and brand recognition.",
-                    image: "/Nizza.png"
+                    image: "/Nizza.webp"
                 },
                 {
                     title: "11.04_DIGITAL",
@@ -300,7 +331,7 @@ export const translations = {
                     stack: ["Figma", "Adobe Suite", "Digital Production", "Webflow"],
                     challenge: "Establish a cohesive and attractive digital brand presence for the creative studio, communicating the scope of their services and artistic vision.",
                     delivery: "Brand identity design, digital art direction, and content production workflow optimization for digital channels, guaranteeing aesthetic consistency.",
-                    image: "/11.04Digital.png"
+                    image: "/11.04Digital.webp"
                 },
                 {
                     title: "EPK Jansound",
@@ -314,7 +345,7 @@ export const translations = {
                     stack: ["HTML5", "CSS3", "JavaScript", "Figma", "Audio Integrations"],
                     challenge: "DJs and music producers lose booking opportunities due to the use of static tools (heavy PDFs, scattered Drive links) that do not adapt to mobile and slow down bookers' evaluations.",
                     delivery: "Design and layout of an interactive and responsive EPK with high cinematic impact. We developed a single-page interface integrating smooth media players, optimized high-resolution press galleries, and direct booking access, drastically reducing promoter response times.",
-                    image: "/JansoundEPK.png"
+                    image: "/JansoundEPK.webp"
                 },
                 {
                     title: "EPK Alejo V",
@@ -328,7 +359,7 @@ export const translations = {
                     stack: ["HTML5", "CSS3", "JavaScript", "Audio Integrations", "Cloud Storage APIs"],
                     challenge: "Design a digital presskit for the artist Alejo V that centralizes his press material, allowing smooth music playback and high-quality promotional downloads without complex redirects.",
                     delivery: "Creation of a dark interactive interface with integrated audio players, optimized photo gallery, and a direct download module for the press, optimizing release campaigns.",
-                    image: "/AlejoV.png"
+                    image: "/AlejoV.webp"
                 },
                 {
                     title: "Cesto Tracker",
@@ -342,7 +373,7 @@ export const translations = {
                     stack: ["React", "TypeScript", "Tailwind CSS", "Data Structures"],
                     challenge: "The lack of specialized software for alternative sports like Cestoball forced coaches and clubs to record statistics manually on paper, making structured and real-time tactical analysis impossible.",
                     delivery: "Construction of a mobile-optimized touch Web App centered on data architecture. Allows live capturing of scores, fouls, and interruptions in less than a second, processing and centralizing metric variables instantly for strategic decision-making from the bench.",
-                    image: "/Mockup-CestoTracker.png"
+                    image: "/Mockup-CestoTracker.webp"
                 },
                 {
                     title: "Rota Pádel",
@@ -356,12 +387,12 @@ export const translations = {
                     stack: ["React", "PWA", "Tailwind CSS", "Distribution Algorithms"],
                     challenge: "Organizing padel matches with rosters of more than 4 players usually generates delays, unbalanced matches, and arguments when calculating match pairings and rest shifts fairly.",
                     delivery: "Development of a Progressive Web App (PWA) powered by a mathematical distribution algorithm. The system automates pairings and manages exact game and rest times, eliminating coordination friction directly at the courts.",
-                    image: "/RotaPadel.png"
+                    image: "/RotaPadel.webp"
                 },
                 {
                     title: "Asadito",
                     description: "Fast and smart tool to accurately calculate the amount of food, drinks, and charcoal needed based on your guests.",
-                    link: "https://asadito-site.netlify.app",
+                    link: "https://asadito.site/",
                     category: "apps-tools" as const,
                     tags: ["Web Utility / Tool"],
                     cta: "Visit Website",
@@ -369,7 +400,8 @@ export const translations = {
                     role: "Product Design & Frontend Development by Gresolutions",
                     stack: ["HTML5", "CSS3", "JavaScript", "UX/UI Design"],
                     challenge: "Logistical planning for traditional culinary events is usually calculated empirically, leading to poor budgets or unnecessary financial overcosts due to wasted supplies.",
-                    delivery: "Creation of an interactive digital tool based on calibrated consumption parameters. Through an ultra-clean and fast interface, the system processes the audience (adults, children) and their specific menu preferences to output an exact shopping list, professionalizing the organization and optimizing the budget."
+                    delivery: "Creation of an interactive digital tool based on calibrated consumption parameters. Through an ultra-clean and fast interface, the system processes the audience (adults, children) and their specific menu preferences to output an exact shopping list, professionalizing the organization and optimizing the budget.",
+                    image: "/asaditosite.webp"
                 }
             ]
         },
@@ -410,6 +442,36 @@ export const translations = {
         },
         footer: {
             rights: 'All rights reserved. Gresolutions'
-        }
+        },
+        stats: [
+            { value: "+15", label: "Projects Delivered" },
+            { value: "95%", label: "Average Lighthouse Score" },
+            { value: "100%", label: "Satisfied Clients" },
+            { value: "+8", label: "Data & AI Solutions" }
+        ],
+        testimonials: {
+            title: "What our clients say",
+            list: [
+                {
+                    quote: "Gresolutions completely transformed our sales channel. We went from operational chaos on WhatsApp to an impeccable automated store that elevated our brand value. The attention to detail and design are on another level.",
+                    author: "Judith",
+                    role: "Founder of ByJudite",
+                    project: "ByJudite (E-Commerce)"
+                },
+                {
+                    quote: "The interactive EPK exceeded all our expectations. Bookers and promoters now respond much faster thanks to the fluid players and easy downloads. It's our best calling card.",
+                    author: "Jansound",
+                    role: "DJ & Producer",
+                    project: "EPK Jansound (Interactive Web)"
+                },
+                {
+                    quote: "Working with Santiago and Martina was excellent. Not only did they create a website with an impactful and modern design, but the loading speed is incredible (Lighthouse 95+). Their technical professionalism is evident.",
+                    author: "Gastón",
+                    role: "Founder of MicrosParty",
+                    project: "MicrosParty (Landing Page)"
+                }
+            ]
+        },
+        floatingCTA: "Let's talk!"
     }
 }

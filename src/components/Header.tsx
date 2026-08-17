@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, FC } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, FC } from 'react';
 import { smoothScrollTo } from '../utils/scroll';
 import { useActiveSection } from '../utils/scrollspy';
 import { useLanguage } from '../context/LanguageContext';
@@ -14,8 +14,8 @@ export const Header: FC = () => {
         { name: t.nav.contact, href: '#contacto' },
     ];
     
-    const sectionIds = ['sobre-mi', 'proyectos', 'servicios', 'contacto'];
-    const activeSection = useActiveSection(['hero', ...sectionIds]);
+    const sectionIds = useMemo(() => ['hero', 'sobre-mi', 'proyectos', 'servicios', 'contacto'], []);
+    const activeSection = useActiveSection(sectionIds);
 
     const handleScroll = useCallback(() => {
         const offset = window.scrollY;

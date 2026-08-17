@@ -7,6 +7,11 @@ export const Hero: FC = () => {
     const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
     useEffect(() => {
+        // Skip canvas initialization entirely on mobile viewports to optimize performance
+        if (window.innerWidth < 768) {
+            return;
+        }
+
         const canvas = canvasRef.current;
         if (!canvas) return;
 
@@ -63,6 +68,9 @@ export const Hero: FC = () => {
             if (!canvas) return;
             width = canvas.width = window.innerWidth;
             height = canvas.height = window.innerHeight;
+            if (window.innerWidth < 768) {
+                draw();
+            }
         };
 
         window.addEventListener('mousemove', handleMouseMove);
@@ -86,6 +94,10 @@ export const Hero: FC = () => {
             bgGrad.addColorStop(1, '#04070a');
             ctx.fillStyle = bgGrad;
             ctx.fillRect(0, 0, width, height);
+
+            if (isMobile) {
+                return;
+            }
 
             // Draw particles
             for (let i = 0; i < particles.length; i++) {
@@ -174,9 +186,13 @@ export const Hero: FC = () => {
     }, []);
 
     return (
-        <section id="hero" className="relative h-screen w-full flex items-center justify-center overflow-hidden">
-            {/* Animated Canvas Plexus Background */}
-            <canvas ref={canvasRef} className="absolute inset-0 w-full h-full block" />
+        <section 
+            id="hero" 
+            className="relative h-screen w-full flex items-center justify-center overflow-hidden"
+            style={{ background: 'radial-gradient(circle at 50% 33%, #0a1118 0%, #04070a 100%)' }}
+        >
+            {/* Animated Canvas Plexus Background - Hidden on mobile to prevent GPU lag */}
+            <canvas ref={canvasRef} className="absolute inset-0 w-full h-full hidden md:block" />
 
             {/* Subtle overlay grid for tech visual depth */}
             <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.012)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.012)_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none opacity-40 z-10" />

@@ -73,7 +73,7 @@ export const About: FC = () => {
                     <div className="flex flex-col items-center text-center gap-6">
                         <div className="w-40 h-40 md:w-48 md:h-48 shrink-0 relative p-1 rounded-full bg-gradient-to-tr from-brand-teal to-brand-navy shadow-lg shadow-brand-teal/30">
                             <img
-                                src="/profile.jpg"
+                                src="/profile.webp"
                                 alt="Santiago Greco"
                                 className="w-full h-full object-cover rounded-full border-4 border-brand-dark"
                             />
@@ -92,7 +92,7 @@ export const About: FC = () => {
                     <div className="flex flex-col items-center text-center gap-6">
                         <div className="w-40 h-40 md:w-48 md:h-48 shrink-0 relative p-1 rounded-full bg-gradient-to-tr from-brand-teal to-brand-navy shadow-lg shadow-brand-teal/30">
                             <img
-                                src="/Profile2.jpeg"
+                                src="/Profile2.webp"
                                 alt="Martina Greco"
                                 className="w-full h-full object-cover rounded-full border-4 border-brand-dark"
                             />

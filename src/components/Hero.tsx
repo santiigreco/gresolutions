@@ -49,7 +49,7 @@ export const Hero: FC = () => {
         const mouse = {
             x: -1000,
             y: -1000,
-            radius: isMobile ? 100 : 160, // interaction radius
+            radius: 160, // interaction radius
         };
 
         const handleMouseMove = (e: MouseEvent) => {
@@ -203,9 +203,9 @@ export const Hero: FC = () => {
             {/* Subtle overlay grid for tech visual depth */}
             <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.012)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.012)_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none opacity-40 z-10" />
 
-            {/* Glowing background ambiance for depth of layers */}
-            <div className="absolute top-1/4 left-1/4 w-[35rem] h-[35rem] bg-[#1e7e89] rounded-full filter blur-[150px] opacity-[0.05] pointer-events-none z-10" />
-            <div className="absolute bottom-1/4 right-1/4 w-[40rem] h-[40rem] bg-[#0a1118] rounded-full filter blur-[180px] opacity-[0.12] pointer-events-none z-10" />
+            {/* Glowing background ambiance for depth of layers - Hidden on mobile to prevent GPU lag */}
+            <div className="absolute top-1/4 left-1/4 w-[35rem] h-[35rem] bg-[#1e7e89] rounded-full filter blur-[150px] opacity-[0.05] pointer-events-none z-10 hidden md:block" />
+            <div className="absolute bottom-1/4 right-1/4 w-[40rem] h-[40rem] bg-[#0a1118] rounded-full filter blur-[180px] opacity-[0.12] pointer-events-none z-10 hidden md:block" />
 
             <div className="text-center z-20 px-6 max-w-4xl animate-fadeIn">
                 <h1 className="font-sans font-black text-5xl sm:text-7xl md:text-8xl bg-gradient-to-r from-brand-light via-brand-teal to-brand-light bg-clip-text text-transparent mb-4 tracking-tight">

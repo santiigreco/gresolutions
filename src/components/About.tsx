@@ -77,6 +77,8 @@ export const About: FC = () => {
                                 alt="Santiago Greco"
                                 loading="lazy"
                                 decoding="async"
+                                width="192"
+                                height="192"
                                 className="w-full h-full object-cover rounded-full border-4 border-brand-dark"
                             />
                         </div>
@@ -98,6 +100,8 @@ export const About: FC = () => {
                                 alt="Martina Greco"
                                 loading="lazy"
                                 decoding="async"
+                                width="192"
+                                height="192"
                                 className="w-full h-full object-cover rounded-full border-4 border-brand-dark"
                             />
                         </div>

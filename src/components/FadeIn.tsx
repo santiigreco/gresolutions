@@ -32,7 +32,11 @@ export const FadeIn: FC<{ children: ReactNode; delay?: number; className?: strin
     return (
         <div 
             ref={domRef} 
-            className={`transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'} ${className}`}
+            className={`transition-all duration-1000 ease-out ${
+                isVisible 
+                    ? 'opacity-100 translate-y-0' 
+                    : 'opacity-100 translate-y-0 md:opacity-0 md:translate-y-12'
+            } ${className}`}
             style={{ transitionDelay: `${delay}ms` }}
         >
             {children}

@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Reports & local temp assets
+*.report.html
+lighthouse-report.json
+live_js.js
+Reporte-Diagnostico-Gresolutions.md
+hero_mobile.png
+vistagresolutionweb.mp4
+redes/

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="" class="scroll-smooth">
+<html lang="es" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -18,7 +18,14 @@
     <meta name="twitter:image" content="/profile.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat&family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat&family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700;900&display=swap"></noscript>
+    <style>
+      /* Critical CSS: above-the-fold hero paint */
+      html{-webkit-text-size-adjust:100%;line-height:1.5}
+      body{background-color:#04070a;color:#F5F5F5;font-family:var(--font-serif),serif}
+      #root{min-height:100vh}
+    </style>
 </head>
   <body>
     <div id="root"></div>

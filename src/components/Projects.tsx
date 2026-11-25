@@ -35,6 +35,8 @@ const ProjectCard: FC<{
                         alt={project.title} 
                         loading="lazy"
                         decoding="async"
+                        width="600"
+                        height="338"
                         className="w-full h-full object-cover transition-transform duration-500 group-hover/card:scale-105"
                     />
                     {/* Shadow overlay at bottom */}
